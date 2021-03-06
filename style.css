@@ -509,9 +509,6 @@ footer {
   nav ul li {
     margin: 20px 0;
   }
-  .navbar {
-    height: 100%;
-  }
   .title,
   .blue .title {
     font-size: 34px;
