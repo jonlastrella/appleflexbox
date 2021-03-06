@@ -1,0 +1,563 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto';
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+nav a {
+  text-decoration: none;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+.navbar {
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  height: 44px;
+  align-items: center;
+  font-size: 14px;
+}
+.nav-links {
+  color: #adadad;
+}
+.covid {
+  background-color: #0071e3;
+  font-size: 14px;
+  padding: 12px;
+  text-align: center;
+}
+.covid a {
+  color: #e7f2fc;
+  font-weight: 400;
+}
+.shop {
+  background-color: #fbfbfd;
+  padding: 12px;
+  text-align: center;
+  font-size: 14px;
+}
+.shop a {
+  color: #06c;
+}
+.specialist {
+  color: #626264;
+}
+
+/* iphone12 */
+.iphone12 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5%;
+  text-align: center;
+}
+.title {
+  font-size: 52px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+.subtitle {
+  font-size: 26px;
+  font-weight: 300;
+  color: #1d1d1f;
+  margin-bottom: 14px;
+}
+.lightfont {
+  color: #909095;
+  line-height: 1.6;
+  margin-bottom: 14px;
+}
+.buy-links {
+  display: flex;
+  justify-content: space-between;
+  width: 10%;
+}
+.buy-links a {
+  color: #06c;
+  font-size: 21px;
+}
+.image-container {
+  width: 60%;
+}
+.image-container img {
+  width: 100%;
+}
+/* iphone12 */
+
+/* iphone12 pro */
+.iphone12-pro,
+.macbook {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+.iphone12-pro .title,
+.macbook .title {
+  margin-top: 5%;
+}
+.iphone12-pro .title,
+.iphone12-pro .subtitle,
+.macbook .title,
+.macbook .subtitle {
+  color: #f5f5f7;
+}
+.buy-links {
+  margin-bottom: 15px;
+}
+/* iphone12 pro */
+
+/* ipad air */
+.ipad-air {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+.ipad-air .title {
+  margin-top: 5%;
+}
+/* ipad air */
+
+/* watch & macbook */
+.watch,
+.macbook,
+.fitness,
+.blue {
+  margin: 7px;
+}
+.macbook .title {
+  font-size: 36px;
+}
+.macbook .subtitle {
+  font-size: 20px;
+}
+.watch {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+.watch .title {
+  font-size: 28px;
+  color: #f5f5f7;
+  margin-top: 5%;
+}
+.watch .subtitle {
+  font-size: 20px;
+  color: #f5f5f7;
+}
+.redtext {
+  font-size: 14px;
+  color: red;
+}
+.double-block {
+  display: flex;
+}
+.double-block .buy-links {
+  width: 20%;
+}
+/* watch & macbook */
+
+/* Fitness */
+.fitness,
+.card,
+.one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  background-color: #fbfbfd;
+}
+.fitness .title,
+.card .title,
+.one .title {
+  font-size: 40px;
+  margin-top: 5%;
+}
+.one .buy-links {
+  width: 24%;
+}
+.one .subtitle {
+  font-size: 20px;
+  width: 30%;
+}
+.fitness .subtitle {
+  font-size: 20px;
+  width: 40%;
+}
+.fitness .buy-links {
+  width: 24%;
+}
+.fitness a,
+.one a {
+  font-size: 18px;
+}
+.buy-links-card {
+  margin-bottom: 30px;
+}
+.buy-links-card a {
+  color: #06c;
+}
+.card .subtitle {
+  width: 50%;
+  font-size: 20px;
+}
+/* blue */
+.blue {
+  background-color: #0074e8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+.blue p {
+  color: #fff;
+  font-size: 40px;
+}
+.tv {
+  margin-top: 5%;
+}
+.ted-links a {
+  color: white;
+  font-size: 18px;
+}
+/* blue */
+
+/* footer */
+footer {
+  margin-top: 20px;
+  background-color: #f5f5f7;
+  padding: 20px;
+}
+.disclosures {
+  width: 50%;
+  margin: auto;
+  color: #86868b;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.4;
+}
+.disclosures p {
+  margin: 15px 0px;
+}
+.bottom-line {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #d2d2d7;
+}
+.bottom-links {
+  width: 50%;
+  margin: auto;
+  display: flex;
+}
+.shoplearn {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+}
+.shoplearn li {
+  color: #454547;
+  font-weight: 500;
+  font-size: 13px;
+}
+.shoplearn ul li a {
+  line-height: 2;
+  color: #86868b;
+}
+.shoplearn ul {
+  margin-top: 20px;
+}
+.moreway {
+  width: 50%;
+  margin: auto;
+}
+.moreways {
+  width: 100%;
+  font-size: 12px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #d2d2d7;
+}
+.moreways a {
+  color: #06c;
+}
+.copyright {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  font-size: 12px;
+  justify-content: space-between;
+}
+.copyrights {
+  margin-top: 10px;
+  display: flex;
+  width: 78%;
+  justify-content: space-between;
+}
+.copyrights p {
+  color: #c4c4c7;
+  font-weight: bold;
+}
+.copyrights a,
+.us a {
+  color: #515154;
+}
+.us {
+  margin-top: 10px;
+}
+/* footer */
+/* Fitness */
+
+/* @media only screen and (max-width: 1468px) {
+  .double-block .buy-links {
+    width: 30%;
+  }
+}
+@media only screen and (max-width: 1010px) {
+  .double-block .buy-links {
+    width: 35%;
+  }
+}
+@media only screen and (max-width: 900px) {
+  /* .double-block {
+    flex-direction: column;
+  } */
+/* .double-block .buy-links {
+    width: 20%;
+  }
+} */
+@media only screen and (max-width: 1423px) {
+  .buy-links {
+    width: 13%;
+  }
+  .double-block .buy-links {
+    width: 25%;
+  }
+}
+@media only screen and (max-width: 1341px) {
+  .one .buy-links,
+  .fitness .buy-links {
+    width: 30%;
+  }
+  .one .subtitle,
+  .fitness .subtitle {
+    width: 47%;
+  }
+}
+@media only screen and (max-width: 1220px) {
+  .macbook .buy-links,
+  .watch .buy-links {
+    width: 30%;
+  }
+}
+@media only screen and (max-width: 1147px) {
+  .buy-links {
+    width: 15%;
+  }
+  .fitness .buy-links,
+  .one .buy-links {
+    width: 35%;
+  }
+}
+@media only screen and (max-width: 1010px) {
+  .one .buy-links,
+  .fitness .buy-links {
+    width: 40%;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .disclosures,
+  .shoplearn,
+  .moreway,
+  .copyright {
+    width: 100%;
+  }
+  .image-container {
+    width: 100%;
+  }
+  .buy-links {
+    width: 18%;
+  }
+  .double-block .buy-links {
+    width: 35%;
+  }
+  .fitness .subtitle,
+  .one .subtitle {
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 965px) {
+  .one .buy-links,
+  .fitness .buy-links {
+    width: 40%;
+  }
+}
+@media only screen and (max-width: 846px) {
+  .one .buy-links,
+  .fitness .buy-links {
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 834px) {
+  .macbook .buy-links,
+  .watch .buy-links {
+    width: 45%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  nav ul {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .image-container {
+    width: 100%;
+  }
+  .copyrights {
+    width: 85%;
+  }
+  .buy-links {
+    width: 25%;
+  }
+  .double-block .buy-links {
+    width: 25%;
+  }
+  .fitness .subtitle,
+  .one .subtitle {
+    width: 83%;
+  }
+  .card .subtitle {
+    width: 80%;
+  }
+  .card .image-container {
+    width: 80%;
+  }
+  .double-block {
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 680px) {
+  .one .buy-links,
+  .fitness .buy-links {
+    width: 60%;
+  }
+}
+@media only screen and (max-width: 565px) {
+  .buy-links {
+    width: 40%;
+  }
+  .double-block .buy-links {
+    width: 40%;
+  }
+}
+@media only screen and (max-width: 375px) {
+  nav ul {
+    flex-direction: column;
+  }
+  nav ul li {
+    margin: 20px 0;
+  }
+  .navbar {
+    height: 100%;
+  }
+  .title,
+  .blue .title {
+    font-size: 34px;
+  }
+  .macbook .title,
+  .fitness .title {
+    font-size: 34px;
+  }
+  .blue p {
+    font-size: 34px;
+    color: #fff;
+  }
+  .subtitle {
+    font-size: 20px;
+  }
+  .lightfont {
+    font-size: 14px;
+  }
+  .buy-links {
+    width: 40%;
+  }
+  .buy-links a {
+    font-size: 18px;
+  }
+  .one .image-container {
+    width: 60%;
+  }
+  .iphone12 .image-container,
+  .ipad-air .image-container,
+  .macbook .image-container,
+  .watch .image-container,
+  .fitness .image-container,
+  .blue .image-container {
+    width: 100%;
+  }
+  .iphone12-pro .image-container {
+    width: 100%;
+  }
+  .double-block {
+    flex-direction: column;
+  }
+  .double-block .buy-links {
+    width: 40%;
+  }
+  .fitness .buy-links {
+    width: 50%;
+  }
+  .fitness .subtitle {
+    width: 80%;
+  }
+  .double-block .buy-links a {
+    font-size: 16px;
+  }
+  .shoplearn {
+    flex-direction: column;
+    text-align: center;
+  }
+  .moreway {
+    margin-top: 20px;
+  }
+  .moreways {
+    border-bottom: none;
+  }
+  .copyright {
+    flex-direction: column;
+  }
+  .copyrights {
+    width: 95%;
+    flex-wrap: wrap;
+  }
+  .copyrights p {
+    margin-bottom: 8px;
+  }
+}
+/* apple media query */
+/* @media only screen and (max-width:765px){
+
+} */
+/* apple media query */
