@@ -491,7 +491,7 @@ footer {
 @media only screen and (max-width: 680px) {
   .one .buy-links,
   .fitness .buy-links {
-    width: 60%;
+    width: 30%;
   }
 }
 @media only screen and (max-width: 565px) {
